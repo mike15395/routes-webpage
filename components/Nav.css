@@ -1,0 +1,8 @@
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(146, 146, 246);
+    height: 7vh;
+    color: black;
+    font-size: 25px;
+}

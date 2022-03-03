@@ -1,0 +1,15 @@
+.display-box{
+    display: flex;
+    flex-wrap: wrap;
+    height: 35vh;
+    width: 20vw;
+    background-color: blanchedalmond;
+    box-shadow: 3px 3px 3px black;
+   margin: 20px;
+   padding: 10px;
+   border-radius: 10px;
+} 
+.display-container{
+    display: flex;
+    flex-wrap: wrap;
+}
