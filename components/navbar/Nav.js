@@ -11,7 +11,7 @@ function Nav() {
           <Link to='/' style={{textDecoration: "none", color: "black" }}>Home</Link>
           <Link to='/about' style={{textDecoration: "none", color: "black" }}>About</Link>
       <Link to='/dashboard' style={{ textDecoration: "none", color: "black" }}>Dashboard</Link>
-      <button onClick={()=>logout()}>Logout</button>
+      <button type="button" class="btn btn-outline-dark" onClick={()=>logout()}>Logout</button>
     </div>
   )
 }
